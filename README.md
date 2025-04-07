@@ -25,6 +25,7 @@ This Weather App is a Python project that provides real-time weather data, trave
 
 ## Project Structure
 
+```
 weather_app/
 │
 ├── app.py                # Main Flask app file
@@ -35,7 +36,7 @@ weather_app/
 │   └── ... 
 ├── requirements.txt      # List of project dependencies
 └── README.md             # Project documentation
-
+```
 
 ## PM Accelerator Mission 
 
