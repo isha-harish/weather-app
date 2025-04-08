@@ -67,6 +67,8 @@ def fetch_weather():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+
 
 # READ: Retrieve weather records from the database
 @app.route("/weather", methods=["GET"])
@@ -197,3 +199,5 @@ def get_travel_suggestions():
         return jsonify({"error": str(e)}), 500
 
 
+if __name__ == "__main__":
+    app.run(debug=True)
