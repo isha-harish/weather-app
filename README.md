@@ -88,7 +88,7 @@ http://127.0.0.1:5000/weather
 
 GET /weather: Retrieve weather records from the database by location.
 
-http://localhost:5000/weather?location=New%20York
+http://127.0.0.1:5000/weather?location=Miami
 
 PUT /weather/<id>: Update a specific weather record by its ID.
 
