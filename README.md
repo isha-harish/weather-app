@@ -1,6 +1,6 @@
 # Weather App Backend
 
-This Weather App is a Python project that provides real-time weather data, travel suggestions based on weather and activities, YouTube video recommendations, and nearby places based on a given location. The app integrates various external APIs such as OpenWeather, YouTube, and OpenStreetMap for a rich user experience.This Weather App is a 
+This Weather App is a Python project that provides real-time weather data, travel suggestions based on weather and activities, YouTube video recommendations, and nearby places based on a given location. The app integrates various external APIs such as OpenWeather, YouTube, and OpenStreetMap for a rich user experience.
 
 
 ## Features
@@ -25,6 +25,7 @@ This Weather App is a Python project that provides real-time weather data, trave
 
 ## Project Structure
 
+```
 weather_app/
 │
 ├── app.py                # Main Flask app file
@@ -35,6 +36,11 @@ weather_app/
 │   └── ... 
 ├── requirements.txt      # List of project dependencies
 └── README.md             # Project documentation
+```
+
+## PM Accelerator Mission 
+
+By making industry-leading tools and education available to individuals from all backgrounds, we level the playing field for future PM leaders. This is the PM Accelerator motto, as we grant aspiring and experienced PMs what they need most – Access. We introduce you to industry leaders, surround you with the right PM ecosystem, and discover the new world of AI product management skills.
 
 
 ## Installation
@@ -82,7 +88,7 @@ http://127.0.0.1:5000/weather
 
 GET /weather: Retrieve weather records from the database by location.
 
-http://localhost:5000/weather?location=New%20York
+http://127.0.0.1:5000/weather?location=Miami
 
 PUT /weather/<id>: Update a specific weather record by its ID.
 
